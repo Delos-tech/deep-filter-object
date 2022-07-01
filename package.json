@@ -1,5 +1,5 @@
 {
-  "name": "deep-filter-object",
+  "name": "@delos-tech/deep-filter-object",
   "description": "Return a deep copy of an object, recursively filtered to have only keys that match the given glob patterns.",
   "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/deep-filter-object",
@@ -26,12 +26,12 @@
     "test": "mocha -R spec"
   },
   "dependencies": {
-    "filter-object": "^1.1.0",
-    "isobject": "^0.2.0"
+    "filter-object": "^3.0.0",
+    "isobject": "^4.0.0"
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "^4.1.0"
+    "should": "^13.2.3"
   },
   "keywords": [
     "filter",
